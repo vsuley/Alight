@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20240CDD0B3BBE2D0037322B /* Alight Class Summary.xcclassmodel in Resources */ = {isa = PBXBuildFile; fileRef = 20240CDC0B3BBE2D0037322B /* Alight Class Summary.xcclassmodel */; };
+		DAF7EFF8075ECBAC006501AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF7EFF5075ECBAC006501AA /* Cocoa.framework */; };
+		DAF7EFF9075ECBAC006501AA /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF7EFF6075ECBAC006501AA /* GLUT.framework */; };
+		DAF7EFFA075ECBAC006501AA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF7EFF7075ECBAC006501AA /* OpenGL.framework */; };
+		DAF7F026075ECC86006501AA /* BMPFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F024075ECC86006501AA /* BMPFile.cpp */; };
+		DAF7F027075ECC86006501AA /* BMPFile.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F025075ECC86006501AA /* BMPFile.h */; };
+		DAF7F05F075ECCA8006501AA /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F02A075ECCA8006501AA /* Camera.cpp */; };
+		DAF7F060075ECCA8006501AA /* Camera.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F02B075ECCA8006501AA /* Camera.h */; };
+		DAF7F061075ECCA8006501AA /* CheckerBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F02C075ECCA8006501AA /* CheckerBoard.cpp */; };
+		DAF7F062075ECCA8006501AA /* CheckerBoard.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F02D075ECCA8006501AA /* CheckerBoard.h */; };
+		DAF7F063075ECCA8006501AA /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F02E075ECCA8006501AA /* Color.cpp */; };
+		DAF7F064075ECCA8006501AA /* Color.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F02F075ECCA8006501AA /* Color.h */; };
+		DAF7F065075ECCA8006501AA /* Environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F030075ECCA8006501AA /* Environment.cpp */; };
+		DAF7F066075ECCA8006501AA /* Environment.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F031075ECCA8006501AA /* Environment.h */; };
+		DAF7F067075ECCA8006501AA /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F032075ECCA8006501AA /* Exception.cpp */; };
+		DAF7F068075ECCA8006501AA /* Exception.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F033075ECCA8006501AA /* Exception.h */; };
+		DAF7F069075ECCA8006501AA /* FancyTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F034075ECCA8006501AA /* FancyTile.cpp */; };
+		DAF7F06A075ECCA8006501AA /* FancyTile.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F035075ECCA8006501AA /* FancyTile.h */; };
+		DAF7F06B075ECCA8006501AA /* GlobalConstants.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F036075ECCA8006501AA /* GlobalConstants.h */; };
+		DAF7F06C075ECCA8006501AA /* IntersectionInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F037075ECCA8006501AA /* IntersectionInfo.cpp */; };
+		DAF7F06D075ECCA8006501AA /* IntersectionInfo.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F038075ECCA8006501AA /* IntersectionInfo.h */; };
+		DAF7F06E075ECCA8006501AA /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F039075ECCA8006501AA /* Light.cpp */; };
+		DAF7F06F075ECCA8006501AA /* Light.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F03A075ECCA8006501AA /* Light.h */; };
+		DAF7F070075ECCA8006501AA /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F03B075ECCA8006501AA /* Log.cpp */; };
+		DAF7F071075ECCA8006501AA /* Log.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F03C075ECCA8006501AA /* Log.h */; };
+		DAF7F072075ECCA8006501AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F03D075ECCA8006501AA /* main.cpp */; };
+		DAF7F073075ECCA8006501AA /* main.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F03E075ECCA8006501AA /* main.h */; };
+		DAF7F074075ECCA8006501AA /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F03F075ECCA8006501AA /* Matrix.cpp */; };
+		DAF7F075075ECCA8006501AA /* Matrix.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F040075ECCA8006501AA /* Matrix.h */; };
+		DAF7F076075ECCA8006501AA /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F041075ECCA8006501AA /* Mesh.cpp */; };
+		DAF7F077075ECCA8006501AA /* Mesh.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F042075ECCA8006501AA /* Mesh.h */; };
+		DAF7F078075ECCA8006501AA /* OnScreenObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F043075ECCA8006501AA /* OnScreenObject.cpp */; };
+		DAF7F079075ECCA8006501AA /* OnScreenObject.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F044075ECCA8006501AA /* OnScreenObject.h */; };
+		DAF7F07A075ECCA8006501AA /* Phong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F045075ECCA8006501AA /* Phong.cpp */; };
+		DAF7F07B075ECCA8006501AA /* Phong.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F046075ECCA8006501AA /* Phong.h */; };
+		DAF7F07C075ECCA8006501AA /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F047075ECCA8006501AA /* Plane.cpp */; };
+		DAF7F07D075ECCA8006501AA /* Plane.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F048075ECCA8006501AA /* Plane.h */; };
+		DAF7F07E075ECCA8006501AA /* Point3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F049075ECCA8006501AA /* Point3D.cpp */; };
+		DAF7F07F075ECCA8006501AA /* Point3D.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F04A075ECCA8006501AA /* Point3D.h */; };
+		DAF7F080075ECCA8006501AA /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F04B075ECCA8006501AA /* Ray.cpp */; };
+		DAF7F081075ECCA8006501AA /* Ray.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F04C075ECCA8006501AA /* Ray.h */; };
+		DAF7F082075ECCA8006501AA /* RenderingCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F04D075ECCA8006501AA /* RenderingCore.cpp */; };
+		DAF7F083075ECCA8006501AA /* RenderingCore.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F04E075ECCA8006501AA /* RenderingCore.h */; };
+		DAF7F084075ECCA8006501AA /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F04F075ECCA8006501AA /* Scene.cpp */; };
+		DAF7F085075ECCA8006501AA /* Scene.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F050075ECCA8006501AA /* Scene.h */; };
+		DAF7F086075ECCA8006501AA /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F051075ECCA8006501AA /* Shader.cpp */; };
+		DAF7F087075ECCA8006501AA /* Shader.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F052075ECCA8006501AA /* Shader.h */; };
+		DAF7F088075ECCA8006501AA /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F053075ECCA8006501AA /* Shape.cpp */; };
+		DAF7F089075ECCA8006501AA /* Shape.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F054075ECCA8006501AA /* Shape.h */; };
+		DAF7F08A075ECCA8006501AA /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F055075ECCA8006501AA /* Sphere.cpp */; };
+		DAF7F08B075ECCA8006501AA /* Sphere.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F056075ECCA8006501AA /* Sphere.h */; };
+		DAF7F08C075ECCA8006501AA /* TexCoords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F057075ECCA8006501AA /* TexCoords.cpp */; };
+		DAF7F08D075ECCA8006501AA /* TexCoords.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F058075ECCA8006501AA /* TexCoords.h */; };
+		DAF7F08E075ECCA8006501AA /* TextureMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F059075ECCA8006501AA /* TextureMap.cpp */; };
+		DAF7F08F075ECCA8006501AA /* TextureMap.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F05A075ECCA8006501AA /* TextureMap.h */; };
+		DAF7F090075ECCA8006501AA /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F05B075ECCA8006501AA /* Triangle.cpp */; };
+		DAF7F091075ECCA8006501AA /* Triangle.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F05C075ECCA8006501AA /* Triangle.h */; };
+		DAF7F092075ECCA8006501AA /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF7F05D075ECCA8006501AA /* Vector.cpp */; };
+		DAF7F093075ECCA8006501AA /* Vector.h in Resources */ = {isa = PBXBuildFile; fileRef = DAF7F05E075ECCA8006501AA /* Vector.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20240CDC0B3BBE2D0037322B /* Alight Class Summary.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; path = "Alight Class Summary.xcclassmodel"; sourceTree = "<group>"; };
+		203199960B2BAB0400549662 /* Alight Ideas and ToDos.oo3 */ = {isa = PBXFileReference; explicitFileType = file; includeInIndex = 1; path = "Alight Ideas and ToDos.oo3"; sourceTree = "<group>"; };
+		DAF7EFA3075ECB77006501AA /* Alight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF7EFA6075ECB77006501AA /* Alight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Alight-Info.plist"; path = "/Users/vinayaksuley/Projects/Alight/Alight-Info.plist"; sourceTree = "<absolute>"; };
+		DAF7EFF5075ECBAC006501AA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		DAF7EFF6075ECBAC006501AA /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		DAF7EFF7075ECBAC006501AA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		DAF7F024075ECC86006501AA /* BMPFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = BMPFile.cpp; sourceTree = "<group>"; };
+		DAF7F025075ECC86006501AA /* BMPFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BMPFile.h; sourceTree = "<group>"; };
+		DAF7F02A075ECCA8006501AA /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		DAF7F02B075ECCA8006501AA /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		DAF7F02C075ECCA8006501AA /* CheckerBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CheckerBoard.cpp; sourceTree = "<group>"; };
+		DAF7F02D075ECCA8006501AA /* CheckerBoard.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CheckerBoard.h; sourceTree = "<group>"; };
+		DAF7F02E075ECCA8006501AA /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		DAF7F02F075ECCA8006501AA /* Color.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		DAF7F030075ECCA8006501AA /* Environment.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Environment.cpp; sourceTree = "<group>"; };
+		DAF7F031075ECCA8006501AA /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
+		DAF7F032075ECCA8006501AA /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		DAF7F033075ECCA8006501AA /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		DAF7F034075ECCA8006501AA /* FancyTile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = FancyTile.cpp; sourceTree = "<group>"; };
+		DAF7F035075ECCA8006501AA /* FancyTile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FancyTile.h; sourceTree = "<group>"; };
+		DAF7F036075ECCA8006501AA /* GlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		DAF7F037075ECCA8006501AA /* IntersectionInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = IntersectionInfo.cpp; sourceTree = "<group>"; };
+		DAF7F038075ECCA8006501AA /* IntersectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IntersectionInfo.h; sourceTree = "<group>"; };
+		DAF7F039075ECCA8006501AA /* Light.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Light.cpp; sourceTree = "<group>"; };
+		DAF7F03A075ECCA8006501AA /* Light.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		DAF7F03B075ECCA8006501AA /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		DAF7F03C075ECCA8006501AA /* Log.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		DAF7F03D075ECCA8006501AA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DAF7F03E075ECCA8006501AA /* main.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		DAF7F03F075ECCA8006501AA /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		DAF7F040075ECCA8006501AA /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		DAF7F041075ECCA8006501AA /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		DAF7F042075ECCA8006501AA /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		DAF7F043075ECCA8006501AA /* OnScreenObject.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = OnScreenObject.cpp; sourceTree = "<group>"; };
+		DAF7F044075ECCA8006501AA /* OnScreenObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OnScreenObject.h; sourceTree = "<group>"; };
+		DAF7F045075ECCA8006501AA /* Phong.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Phong.cpp; sourceTree = "<group>"; };
+		DAF7F046075ECCA8006501AA /* Phong.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Phong.h; sourceTree = "<group>"; };
+		DAF7F047075ECCA8006501AA /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		DAF7F048075ECCA8006501AA /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		DAF7F049075ECCA8006501AA /* Point3D.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Point3D.cpp; sourceTree = "<group>"; };
+		DAF7F04A075ECCA8006501AA /* Point3D.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Point3D.h; sourceTree = "<group>"; };
+		DAF7F04B075ECCA8006501AA /* Ray.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
+		DAF7F04C075ECCA8006501AA /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
+		DAF7F04D075ECCA8006501AA /* RenderingCore.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingCore.cpp; sourceTree = "<group>"; };
+		DAF7F04E075ECCA8006501AA /* RenderingCore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RenderingCore.h; sourceTree = "<group>"; };
+		DAF7F04F075ECCA8006501AA /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		DAF7F050075ECCA8006501AA /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		DAF7F051075ECCA8006501AA /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		DAF7F052075ECCA8006501AA /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		DAF7F053075ECCA8006501AA /* Shape.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		DAF7F054075ECCA8006501AA /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		DAF7F055075ECCA8006501AA /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		DAF7F056075ECCA8006501AA /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		DAF7F057075ECCA8006501AA /* TexCoords.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TexCoords.cpp; sourceTree = "<group>"; };
+		DAF7F058075ECCA8006501AA /* TexCoords.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TexCoords.h; sourceTree = "<group>"; };
+		DAF7F059075ECCA8006501AA /* TextureMap.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TextureMap.cpp; sourceTree = "<group>"; };
+		DAF7F05A075ECCA8006501AA /* TextureMap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TextureMap.h; sourceTree = "<group>"; };
+		DAF7F05B075ECCA8006501AA /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		DAF7F05C075ECCA8006501AA /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		DAF7F05D075ECCA8006501AA /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		DAF7F05E075ECCA8006501AA /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF7EFA1075ECB77006501AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF7EFF8075ECBAC006501AA /* Cocoa.framework in Frameworks */,
+				DAF7EFF9075ECBAC006501AA /* GLUT.framework in Frameworks */,
+				DAF7EFFA075ECBAC006501AA /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203199930B2BAACF00549662 /* Supporting files and documents */ = {
+			isa = PBXGroup;
+			children = (
+				20240CDC0B3BBE2D0037322B /* Alight Class Summary.xcclassmodel */,
+				203199960B2BAB0400549662 /* Alight Ideas and ToDos.oo3 */,
+			);
+			name = "Supporting files and documents";
+			sourceTree = "<group>";
+		};
+		DAF7EF95075ECB64006501AA = {
+			isa = PBXGroup;
+			children = (
+				203199930B2BAACF00549662 /* Supporting files and documents */,
+				DAF7F02A075ECCA8006501AA /* Camera.cpp */,
+				DAF7F02B075ECCA8006501AA /* Camera.h */,
+				DAF7F02C075ECCA8006501AA /* CheckerBoard.cpp */,
+				DAF7F02D075ECCA8006501AA /* CheckerBoard.h */,
+				DAF7F02E075ECCA8006501AA /* Color.cpp */,
+				DAF7F02F075ECCA8006501AA /* Color.h */,
+				DAF7F030075ECCA8006501AA /* Environment.cpp */,
+				DAF7F031075ECCA8006501AA /* Environment.h */,
+				DAF7F032075ECCA8006501AA /* Exception.cpp */,
+				DAF7F033075ECCA8006501AA /* Exception.h */,
+				DAF7F034075ECCA8006501AA /* FancyTile.cpp */,
+				DAF7F035075ECCA8006501AA /* FancyTile.h */,
+				DAF7F036075ECCA8006501AA /* GlobalConstants.h */,
+				DAF7F037075ECCA8006501AA /* IntersectionInfo.cpp */,
+				DAF7F038075ECCA8006501AA /* IntersectionInfo.h */,
+				DAF7F039075ECCA8006501AA /* Light.cpp */,
+				DAF7F03A075ECCA8006501AA /* Light.h */,
+				DAF7F03B075ECCA8006501AA /* Log.cpp */,
+				DAF7F03C075ECCA8006501AA /* Log.h */,
+				DAF7F03D075ECCA8006501AA /* main.cpp */,
+				DAF7F03E075ECCA8006501AA /* main.h */,
+				DAF7F03F075ECCA8006501AA /* Matrix.cpp */,
+				DAF7F040075ECCA8006501AA /* Matrix.h */,
+				DAF7F041075ECCA8006501AA /* Mesh.cpp */,
+				DAF7F042075ECCA8006501AA /* Mesh.h */,
+				DAF7F043075ECCA8006501AA /* OnScreenObject.cpp */,
+				DAF7F044075ECCA8006501AA /* OnScreenObject.h */,
+				DAF7F045075ECCA8006501AA /* Phong.cpp */,
+				DAF7F046075ECCA8006501AA /* Phong.h */,
+				DAF7F047075ECCA8006501AA /* Plane.cpp */,
+				DAF7F048075ECCA8006501AA /* Plane.h */,
+				DAF7F049075ECCA8006501AA /* Point3D.cpp */,
+				DAF7F04A075ECCA8006501AA /* Point3D.h */,
+				DAF7F04B075ECCA8006501AA /* Ray.cpp */,
+				DAF7F04C075ECCA8006501AA /* Ray.h */,
+				DAF7F04D075ECCA8006501AA /* RenderingCore.cpp */,
+				DAF7F04E075ECCA8006501AA /* RenderingCore.h */,
+				DAF7F04F075ECCA8006501AA /* Scene.cpp */,
+				DAF7F050075ECCA8006501AA /* Scene.h */,
+				DAF7F051075ECCA8006501AA /* Shader.cpp */,
+				DAF7F052075ECCA8006501AA /* Shader.h */,
+				DAF7F053075ECCA8006501AA /* Shape.cpp */,
+				DAF7F054075ECCA8006501AA /* Shape.h */,
+				DAF7F055075ECCA8006501AA /* Sphere.cpp */,
+				DAF7F056075ECCA8006501AA /* Sphere.h */,
+				DAF7F057075ECCA8006501AA /* TexCoords.cpp */,
+				DAF7F058075ECCA8006501AA /* TexCoords.h */,
+				DAF7F059075ECCA8006501AA /* TextureMap.cpp */,
+				DAF7F05A075ECCA8006501AA /* TextureMap.h */,
+				DAF7F05B075ECCA8006501AA /* Triangle.cpp */,
+				DAF7F05C075ECCA8006501AA /* Triangle.h */,
+				DAF7F05D075ECCA8006501AA /* Vector.cpp */,
+				DAF7F05E075ECCA8006501AA /* Vector.h */,
+				DAF7F024075ECC86006501AA /* BMPFile.cpp */,
+				DAF7F025075ECC86006501AA /* BMPFile.h */,
+				DAF7EFF5075ECBAC006501AA /* Cocoa.framework */,
+				DAF7EFF6075ECBAC006501AA /* GLUT.framework */,
+				DAF7EFF7075ECBAC006501AA /* OpenGL.framework */,
+				DAF7EFA4075ECB77006501AA /* Products */,
+				DAF7EFA6075ECB77006501AA /* Alight-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF7EFA4075ECB77006501AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF7EFA3075ECB77006501AA /* Alight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF7EFA2075ECB77006501AA /* Alight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208431F80AC2918C00CDFD8D /* Build configuration list for PBXNativeTarget "Alight" */;
+			buildPhases = (
+				DAF7EF9F075ECB77006501AA /* Resources */,
+				DAF7EFA0075ECB77006501AA /* Sources */,
+				DAF7EFA1075ECB77006501AA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alight;
+			productName = Alight;
+			productReference = DAF7EFA3075ECB77006501AA /* Alight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF7EF99075ECB64006501AA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 208431FC0AC2918C00CDFD8D /* Build configuration list for PBXProject "Alight" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = DAF7EF95075ECB64006501AA;
+			productRefGroup = DAF7EFA4075ECB77006501AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF7EFA2075ECB77006501AA /* Alight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF7EF9F075ECB77006501AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF7F027075ECC86006501AA /* BMPFile.h in Resources */,
+				DAF7F060075ECCA8006501AA /* Camera.h in Resources */,
+				DAF7F062075ECCA8006501AA /* CheckerBoard.h in Resources */,
+				DAF7F064075ECCA8006501AA /* Color.h in Resources */,
+				DAF7F066075ECCA8006501AA /* Environment.h in Resources */,
+				DAF7F068075ECCA8006501AA /* Exception.h in Resources */,
+				DAF7F06A075ECCA8006501AA /* FancyTile.h in Resources */,
+				DAF7F06B075ECCA8006501AA /* GlobalConstants.h in Resources */,
+				DAF7F06D075ECCA8006501AA /* IntersectionInfo.h in Resources */,
+				DAF7F06F075ECCA8006501AA /* Light.h in Resources */,
+				DAF7F071075ECCA8006501AA /* Log.h in Resources */,
+				DAF7F073075ECCA8006501AA /* main.h in Resources */,
+				DAF7F075075ECCA8006501AA /* Matrix.h in Resources */,
+				DAF7F077075ECCA8006501AA /* Mesh.h in Resources */,
+				DAF7F079075ECCA8006501AA /* OnScreenObject.h in Resources */,
+				DAF7F07B075ECCA8006501AA /* Phong.h in Resources */,
+				DAF7F07D075ECCA8006501AA /* Plane.h in Resources */,
+				DAF7F07F075ECCA8006501AA /* Point3D.h in Resources */,
+				DAF7F081075ECCA8006501AA /* Ray.h in Resources */,
+				DAF7F083075ECCA8006501AA /* RenderingCore.h in Resources */,
+				DAF7F085075ECCA8006501AA /* Scene.h in Resources */,
+				DAF7F087075ECCA8006501AA /* Shader.h in Resources */,
+				DAF7F089075ECCA8006501AA /* Shape.h in Resources */,
+				DAF7F08B075ECCA8006501AA /* Sphere.h in Resources */,
+				DAF7F08D075ECCA8006501AA /* TexCoords.h in Resources */,
+				DAF7F08F075ECCA8006501AA /* TextureMap.h in Resources */,
+				DAF7F091075ECCA8006501AA /* Triangle.h in Resources */,
+				DAF7F093075ECCA8006501AA /* Vector.h in Resources */,
+				20240CDD0B3BBE2D0037322B /* Alight Class Summary.xcclassmodel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF7EFA0075ECB77006501AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF7F026075ECC86006501AA /* BMPFile.cpp in Sources */,
+				DAF7F05F075ECCA8006501AA /* Camera.cpp in Sources */,
+				DAF7F061075ECCA8006501AA /* CheckerBoard.cpp in Sources */,
+				DAF7F063075ECCA8006501AA /* Color.cpp in Sources */,
+				DAF7F065075ECCA8006501AA /* Environment.cpp in Sources */,
+				DAF7F067075ECCA8006501AA /* Exception.cpp in Sources */,
+				DAF7F069075ECCA8006501AA /* FancyTile.cpp in Sources */,
+				DAF7F06C075ECCA8006501AA /* IntersectionInfo.cpp in Sources */,
+				DAF7F06E075ECCA8006501AA /* Light.cpp in Sources */,
+				DAF7F070075ECCA8006501AA /* Log.cpp in Sources */,
+				DAF7F072075ECCA8006501AA /* main.cpp in Sources */,
+				DAF7F074075ECCA8006501AA /* Matrix.cpp in Sources */,
+				DAF7F076075ECCA8006501AA /* Mesh.cpp in Sources */,
+				DAF7F078075ECCA8006501AA /* OnScreenObject.cpp in Sources */,
+				DAF7F07A075ECCA8006501AA /* Phong.cpp in Sources */,
+				DAF7F07C075ECCA8006501AA /* Plane.cpp in Sources */,
+				DAF7F07E075ECCA8006501AA /* Point3D.cpp in Sources */,
+				DAF7F080075ECCA8006501AA /* Ray.cpp in Sources */,
+				DAF7F082075ECCA8006501AA /* RenderingCore.cpp in Sources */,
+				DAF7F084075ECCA8006501AA /* Scene.cpp in Sources */,
+				DAF7F086075ECCA8006501AA /* Shader.cpp in Sources */,
+				DAF7F088075ECCA8006501AA /* Shape.cpp in Sources */,
+				DAF7F08A075ECCA8006501AA /* Sphere.cpp in Sources */,
+				DAF7F08C075ECCA8006501AA /* TexCoords.cpp in Sources */,
+				DAF7F08E075ECCA8006501AA /* TextureMap.cpp in Sources */,
+				DAF7F090075ECCA8006501AA /* Triangle.cpp in Sources */,
+				DAF7F092075ECCA8006501AA /* Vector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		208431F90AC2918C00CDFD8D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Alight-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Alight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		208431FA0AC2918C00CDFD8D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Alight-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Alight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		208431FB0AC2918C00CDFD8D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "Alight-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Alight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		208431FD0AC2918C00CDFD8D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		208431FE0AC2918C00CDFD8D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		208431FF0AC2918C00CDFD8D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		208431F80AC2918C00CDFD8D /* Build configuration list for PBXNativeTarget "Alight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208431F90AC2918C00CDFD8D /* Development */,
+				208431FA0AC2918C00CDFD8D /* Deployment */,
+				208431FB0AC2918C00CDFD8D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		208431FC0AC2918C00CDFD8D /* Build configuration list for PBXProject "Alight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208431FD0AC2918C00CDFD8D /* Development */,
+				208431FE0AC2918C00CDFD8D /* Deployment */,
+				208431FF0AC2918C00CDFD8D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF7EF99075ECB64006501AA /* Project object */;
+}

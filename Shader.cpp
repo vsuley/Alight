@@ -1,0 +1,32 @@
+// Shader.cpp: implementation of the CShader class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "Shader.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CShader::CShader()
+{
+	m_bTextureMap = false;
+	m_pTexMap = 0;
+}
+
+
+
+
+
+CShader::CShader(bool isTextured)
+{
+	m_bTextureMap = isTextured;
+	m_pTexMap = 0;
+}
+
+
+
+CShader::~CShader()
+{
+
+}
